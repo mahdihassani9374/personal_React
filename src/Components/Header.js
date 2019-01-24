@@ -17,9 +17,9 @@ class Header extends Component {
                         </div>
                         <div className="collapse navbar-collapse" id="myNavbar">
                             <ul className="nav navbar-nav">
-                                <li className="active"><a href="/">صفحه اصلی</a></li>
-                                <li><a href="./projects.html" > نمونه کارها </a></li>
-                                <li><a href="./about.html">درباره ما</a></li>
+                                <li><NavLink to="/">صفحه اصلی</NavLink></li>
+                                <li><NavLink to="./projects"> نمونه کارها </NavLink></li>
+                                <li><NavLink to="./aboutUs">درباره ما</NavLink></li>
                             </ul>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ class Header extends Component {
                         <NavLink to="/aboutUs" className="header__section__link wow bounceInUp" data-toggle="tooltip" title="درباره ما">
                             <i className="pe-7s-users"></i>
                         </NavLink>
-                        <NavLink to="/projects" className="header__section__link wow bounceInUp" data-toggle="tooltip" title="پروژه ها">
+                        <NavLink to="/projects"  className="header__section__link wow bounceInUp" data-toggle="tooltip" title="پروژه ها">
                             <i className="pe-7s-diamond"></i>
                         </NavLink>
                     </div>
