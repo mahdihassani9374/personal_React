@@ -5,8 +5,10 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <h1>Home</h1>
+                <h1>صفحه اصلی</h1>
                 <Header />
+                <button className="btn btn-success">click</button>
+                <i className="fa fa-times"></i>
             </div>
         );
     }
