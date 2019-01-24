@@ -6,9 +6,7 @@ class Home extends Component {
         return (
             <div>
                 <h1>صفحه اصلی</h1>
-                <Header />
-                <button className="btn btn-success">click</button>
-                <i className="fa fa-times"></i>
+                <Header />               
             </div>
         );
     }
