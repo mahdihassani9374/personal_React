@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import NavItem  from './NavItem'
 
-
 class Header extends Component {
     render() {
         return (
