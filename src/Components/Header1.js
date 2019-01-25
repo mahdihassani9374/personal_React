@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import ReactWOW from 'react-wow'
 
 class Header1 extends Component {
     render() {
-        let {children , icon} = this.props;
+        let { children, icon } = this.props;
         return (
             <header className="header header-custom">
                 <nav className="navbar navbar-inverse">
@@ -26,12 +27,15 @@ class Header1 extends Component {
                 </nav>
 
                 <section className="header__section header__section-custom">
-                    <h1 className="header__section__title wow bounceInUp">{children}</h1>
-                    <div className="mt-20 wow bounceInDown">
-                        <i className={icon} style={{fontSize:'50px'}}></i>
-                    </div>
+                    <ReactWOW animation='bounceInUp'>
+                        <h1 className="header__section__title">{children}</h1>
+                    </ReactWOW>
+                    <ReactWOW animation='bounceInDown'>
+                        <div className="mt-20">
+                            <i className={icon} style={{ fontSize: '50px' }}></i>
+                        </div>
+                    </ReactWOW>
                 </section>
-
             </header>
         );
     }
