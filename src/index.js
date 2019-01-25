@@ -10,6 +10,7 @@ import './docs/css/animate.css'
 import './docs/css/styles.css?v=0.0.1'
 import './docs/lib/pe-icon-7-stroke/css/helper.css'
 import './docs/lib/pe-icon-7-stroke/css/pe-icon-7-stroke.css'
+import './docs/css/override.css'
 
 ReactDOM.render(
     <BrowserRouter>

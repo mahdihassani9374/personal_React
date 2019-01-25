@@ -19,8 +19,8 @@ class Header extends Component {
                         <div className="collapse navbar-collapse" id="myNavbar">
                             <ul className="nav navbar-nav">
                                 <li><NavLink to="/">صفحه اصلی</NavLink></li>
-                                <li><NavLink to="./projects"> نمونه کارها </NavLink></li>
-                                <li><NavLink to="./aboutUs">درباره ما</NavLink></li>
+                                <li><NavLink to="/projects"> نمونه کارها </NavLink></li>
+                                <li><NavLink to="/aboutUs">درباره ما</NavLink></li>
                             </ul>
                         </div>
                     </div>
