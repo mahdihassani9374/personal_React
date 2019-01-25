@@ -8,7 +8,7 @@ import projectImg5 from '../docs/images/project5.png';
 class ProjectItem extends Component {
     render() {
         return (
-            <section className="section p-0">
+            <section className="section">
                 <div className="row">
                     <div className="container">
                         <div className="section__title wow zoomIn">پروژه ها</div>

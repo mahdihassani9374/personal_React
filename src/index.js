@@ -15,7 +15,7 @@ import './docs/lib/pe-icon-7-stroke/css/pe-icon-7-stroke.css'
 
 // js link 
 
-//import './docs/lib/jquery-3.1.1/jquery-3.1.1.min'
+//import './docs/lib/jquery-3.1.1/jquery-3.1.1.min.js'
 // import './docs/lib/bootstrap/bootstrap.min'
 // import './docs/lib/slick-master/slick/slick.min'
 // import './docs/js/wow.min'

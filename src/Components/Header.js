@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import img from '../docs/images/profile.jpg';
+import ReactWOW from 'react-wow'
 
 class Header extends Component {
     render() {
@@ -25,30 +26,42 @@ class Header extends Component {
                     </div>
                 </nav>
                 <section className="header__section">
-                    <h1 className="header__section__title wow bounceInUp wow bounceInDown">مهدی و مبین حسنی </h1>
-                    <div className="text-center wow zoomIn">
-                        <img src={img} className="header__section__img" alt="مهدی و مبین حسنی"/>
-                    </div>
+                    <ReactWOW animation='bounceInDown'>
+                        <h1 className="header__section__title">مهدی و مبین حسنی </h1>
+                    </ReactWOW>
+                    <ReactWOW animation='zoomIn'>
+                        <div className="text-center">
+                            <img src={img} className="header__section__img" alt="مهدی و مبین حسنی" />
+                        </div>
+                    </ReactWOW>
                     <div className="text-center">
-                        <h4 className="header__section__desc wow bounceInUp">programmer and web designer</h4>
-                        <h4 className="header__section__desc wow bounceInUp">ما عاشق برنامه نویسی ایم</h4>
-                        <p className="padding-10 line-height-30 wow bounceInLeft"> بیشتر برنامه نویسان خوب برنامه نویسی می کنند نه
-                            به این علت که انتظار دارند دستمزد بگیرند یا از سوی عموم تحسین شوند، بلکه چون برنامه نویسی برایشان
+                        <ReactWOW animation='bounceInUp'>
+                            <h4 className="header__section__desc">programmer and web designer</h4>
+                        </ReactWOW>
+                        <ReactWOW animation='bounceInUp'>
+                            <h4 className="header__section__desc">ما عاشق برنامه نویسی ایم</h4>
+                        </ReactWOW>
+                        <ReactWOW animation='bounceInLeft'>
+                            <p className="padding-10 line-height-30"> بیشتر برنامه نویسان خوب برنامه نویسی می کنند نه
+                                    به این علت که انتظار دارند دستمزد بگیرند یا از سوی عموم تحسین شوند، بلکه چون برنامه نویسی برایشان
                     سرگرم کننده است</p>
+                        </ReactWOW>
                     </div>
                     <div className="text-center col-md-12 flex">
-                        <NavLink to="/" className="header__section__link wow bounceInUp" data-toggle="tooltip" title="صفحه اصلی">
-                            <i className="pe-7s-home"></i>
-                        </NavLink>
-                        <NavLink to="/aboutUs" className="header__section__link wow bounceInUp" data-toggle="tooltip" title="درباره ما">
-                            <i className="pe-7s-users"></i>
-                        </NavLink>
-                        <NavLink to="/projects"  className="header__section__link wow bounceInUp" data-toggle="tooltip" title="پروژه ها">
-                            <i className="pe-7s-diamond"></i>
-                        </NavLink>
+                        <ReactWOW animation='bounceInUp'>
+                            <NavLink to="/" className="header__section__link" data-toggle="tooltip" title="صفحه اصلی">
+                                <i className="pe-7s-home"></i>
+                            </NavLink>
+                            <NavLink to="/aboutUs" className="header__section__link" data-toggle="tooltip" title="درباره ما">
+                                <i className="pe-7s-users"></i>
+                            </NavLink>
+                            <NavLink to="/projects" className="header__section__link" data-toggle="tooltip" title="پروژه ها">
+                                <i className="pe-7s-diamond"></i>
+                            </NavLink>
+                        </ReactWOW>
                     </div>
                 </section>
-            </header>
+            </header >
         );
     }
 }
