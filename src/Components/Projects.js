@@ -5,7 +5,7 @@ class Projects extends Component {
     render() {
         return (
             <div>
-               project
+               <Header1 icon="pe-7s-diamond">پروژه ها - مهدی مبین حسنی </Header1>
             </div>
         );
     }

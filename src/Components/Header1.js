@@ -3,6 +3,7 @@ import {NavLink} from 'react-router-dom';
 
 class Header1 extends Component {
     render() {
+        let {children , icon} = this.props;
         return (
             <header className="header header-custom">
                 <nav className="navbar navbar-inverse">
@@ -25,10 +26,9 @@ class Header1 extends Component {
                 </nav>
 
                 <section className="header__section header__section-custom">
-                    <h1 className="header__section__title wow bounceInUp">درباره ما - مهدی
-                    مبین حسنی </h1>
+                    <h1 className="header__section__title wow bounceInUp">{children}</h1>
                     <div className="mt-20 wow bounceInDown">
-                        <i className="pe-7s-user font-size-50"></i>
+                        <i className={icon} style={{fontSize:'50px'}}></i>
                     </div>
                 </section>
 
