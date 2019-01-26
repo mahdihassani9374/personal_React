@@ -56,17 +56,17 @@ class Footer extends Component {
                             <h1 className="footer__title">مهدی و مبین حسنی </h1>
                             <div className="flex padding-10">
                                 <ReactWOW animation='bounceInDown'>
-                                    <a href="http://telegram.me/mahdihassani74" className="footer__link">
+                                    <a target="_blank" href="https://telegram.me/mahdihassani74" className="footer__link">
                                         <i className="fa fa-telegram" aria-hidden="true"></i>
                                     </a>
                                 </ReactWOW>
                                 <ReactWOW animation='bounceInDown'>
-                                    <a href="http://telegram.me/mahdihassani74" className="footer__link">
+                                    <a target="_blank" href="https://www.instagram.com/mobinmahdihassani/" className="footer__link">
                                         <i className="fa fa-instagram" aria-hidden="true"></i>
                                     </a>
                                 </ReactWOW>
                                 <ReactWOW animation='bounceInDown'>
-                                    <a href="http://telegram.me/mahdihassani74" className="footer__link">
+                                    <a target="_blank" href="https://telegram.me/mobinhassani" className="footer__link">
                                         <i className="fa fa-telegram" aria-hidden="true"></i>
                                     </a>
                                 </ReactWOW>

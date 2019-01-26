@@ -29,8 +29,7 @@ class ProjectItem extends Component {
                         </ReactWOW>
                         <ReactWOW animation='zoomIn'>
                             <div className="section__desc">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
+                               در این قسمت می توانید نمونه کارهای تحب وب مارا مشاهده کنید 
                     </div>
                         </ReactWOW>
                         <div className="mt-80 mb-40 flex">
@@ -38,7 +37,7 @@ class ProjectItem extends Component {
                                 this.state.projects.map((item,index)=>
                                     <ReactWOW animation='zoomIn' key={index}>
                                         <div className="col-md-6 col-sm-6 col-xs-12">
-                                            <a href={item.link} className="link" target="_blank">
+                                            <a target='_blank' href={item.link} className="link">
                                                 <div className="section__box p-0 pulse-hover">
                                                     <div className="text-center">
                                                         <img src={item.img} className="img-responsive" alt={item.name} />
