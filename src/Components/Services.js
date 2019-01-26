@@ -5,8 +5,8 @@ class Services extends Component {
 
     state = {
         services: [
-            {title:' سایت واکنش گرا ',icon:'pe-7s-look',desc:'طراحی سایت واکنش گرا ( ریسپانسیو)  '},
-            {title:'سئو سایت (SEO)',icon:'pe-7s-phone',desc:'با ما تو گوگل حالا حالاها بالا باشید'},
+            {title:' سایت واکنش گرا ',icon:'pe-7s-phone',desc:'طراحی سایت واکنش گرا ( ریسپانسیو)  '},
+            {title:'سئو سایت (SEO)',icon:'pe-7s-look',desc:'با ما تو گوگل حالا حالاها بالا باشید'},
             {title:'خدمات و پشتیبانی رایگان',icon:'pe-7s-server',desc:'خدمات و پشتیبانی در کمترین زمان ممکن '},
             {title:'طراحی سایت داینامیک',icon:'pe-7s-monitor',desc:'سایتتو خودت طراحی کن '}
         ]
