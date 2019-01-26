@@ -3,9 +3,12 @@ import { Route } from 'react-router-dom'
 import Projects from './Projects';
 import Home from './Home';
 import AboutUs from './AboutUs';
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-123462599-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 
-class App extends Component {
+class App extends Component {  
   render() {
     return (
       <div>
