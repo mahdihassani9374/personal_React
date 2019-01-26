@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom'
 import Projects from './Projects';
 import Home from './Home';
 import AboutUs from './AboutUs';
+import Gallery from './Gallery';
 import ReactGA from 'react-ga';
 import $ from 'jquery'
 ReactGA.initialize('UA-123462599-1');
@@ -33,6 +34,7 @@ class App extends Component {
         <Route path="/" exact={true} component={Home} />
         <Route path="/aboutUs" component={AboutUs} />
         <Route path="/projects" component={Projects} />
+        <Route path="/gallery" component={Gallery} />
       </div>
     );
   }

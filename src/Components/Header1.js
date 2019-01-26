@@ -22,6 +22,9 @@ class Header1 extends Component {
                                 <li><NavLink to="/projects"> نمونه کارها </NavLink></li>
                                 <li><NavLink to="/aboutUs">درباره ما</NavLink></li>
                             </ul>
+                            <ul className="nav navbar-nav navbar-right">                        
+                                <li><NavLink to="/gallery">گالری عکس</NavLink></li>
+                            </ul>
                         </div>
                     </div>
                 </nav>
