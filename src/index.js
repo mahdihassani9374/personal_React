@@ -12,6 +12,10 @@ import './docs/lib/pe-icon-7-stroke/css/helper.css'
 import './docs/lib/pe-icon-7-stroke/css/pe-icon-7-stroke.css'
 import './docs/css/override.css'
 
+import 'jquery/src/jquery';
+import 'bootstrap/dist/js/bootstrap.min.js'
+
+
 ReactDOM.render(
     <BrowserRouter>
         <App />

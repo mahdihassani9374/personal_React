@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import img from '../docs/images/profile.jpg';
 import ReactWOW from 'react-wow'
 
-class Header extends Component {
+class Header extends Component {   
     render() {
         return (
             <header className="header">
