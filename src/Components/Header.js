@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import img from '../docs/images/profile.jpg';
 import ReactWOW from 'react-wow'
 
-class Header extends Component {   
+class Header extends Component {
     render() {
         return (
             <header className="header">
@@ -22,7 +22,7 @@ class Header extends Component {
                                 <li><NavLink to="/projects"> نمونه کارها </NavLink></li>
                                 <li><NavLink to="/aboutUs">درباره ما</NavLink></li>
                             </ul>
-                            <ul className="nav navbar-nav navbar-right">                        
+                            <ul className="nav navbar-nav navbar-right">
                                 <li><NavLink to="/gallery">گالری عکس</NavLink></li>
                             </ul>
                         </div>
@@ -66,7 +66,7 @@ class Header extends Component {
                             </NavLink>
                         </ReactWOW>
                     </div>
-                </section>
+            </section>
             </header >
         );
     }
