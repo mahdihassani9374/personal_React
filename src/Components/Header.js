@@ -61,6 +61,9 @@ class Header extends Component {
                             <NavLink to="/projects" className="header__section__link" data-toggle="tooltip" title="پروژه ها">
                                 <i className="pe-7s-diamond"></i>
                             </NavLink>
+                            <NavLink to="/gallery" className="header__section__link" data-toggle="tooltip" title="عکس ها ">
+                                <i className="pe-7s-camera"></i>
+                            </NavLink>
                         </ReactWOW>
                     </div>
                 </section>
