@@ -66,7 +66,7 @@ class Header extends Component {
                             </NavLink>
                         </ReactWOW>
                     </div>
-            </section>
+                </section>
             </header >
         );
     }
