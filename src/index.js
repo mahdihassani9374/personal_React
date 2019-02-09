@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './Components/App';
 import { BrowserRouter } from 'react-router-dom';
-// css link 
 import './docs/lib/bootstrap/dist/css/bootstrap.min.rtl.css';
 import './docs/lib/font-awesome-4.7.0/css/font-awesome.min.css';
 import './docs/fonts/font-fa.css'
