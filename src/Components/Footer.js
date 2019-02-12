@@ -8,7 +8,7 @@ class Footer extends Component {
                 <div className="row">
                     <div className="container">
                         <div className="footer__top">
-                            <div className="row">
+                            <div className="">
                                 <ReactWOW animation='zoomIn'>
                                     <div className="col-md-4 col-xs-12 col-sm-12 p-0">
                                         <div className="footer__top__box">
