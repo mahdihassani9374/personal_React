@@ -4,30 +4,30 @@ import Projects from './Projects';
 import Home from './Home';
 import AboutUs from './AboutUs';
 import Gallery from './Gallery';
-// import $ from 'jquery'
-// import ReactGA from 'react-ga';
+import $ from 'jquery'
+import ReactGA from 'react-ga';
 
-// ReactGA.initialize('UA-123462599-1');
-// ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.initialize('UA-123462599-1');
+ ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 
 class App extends Component {  
     componentDidMount() {
-      // $(window).scroll(function(){           
-      //     scroll_menu()
-      //   });
-      //   scroll_menu();
+       $(window).scroll(function(){           
+           scroll_menu()
+         });
+         scroll_menu();
 
-      // function scroll_menu() {
-      //     var scroll = $(window).scrollTop();
-      //     if(scroll > 58) {
-      //       $('.navbar.navbar-inverse').addClass('navbar-scroll');
-      //     }
-      //     else {
-      //       $('.navbar.navbar-inverse').removeClass('navbar-scroll');
-      //     }
-      // }
+       function scroll_menu() {
+           var scroll = $(window).scrollTop();
+           if(scroll > 58) {
+             $('.navbar.navbar-inverse').addClass('navbar-scroll');
+           }
+           else {
+             $('.navbar.navbar-inverse').removeClass('navbar-scroll');
+           }
+       }
   }
   render() {
     return (
