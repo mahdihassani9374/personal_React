@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './Components/App';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter  } from 'react-router-dom';
 import './docs/lib/bootstrap/dist/css/bootstrap.min.rtl.css';
 import './docs/lib/font-awesome-4.7.0/css/font-awesome.min.css';
 import './docs/fonts/font-fa.css'
@@ -16,6 +16,6 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 
 
 ReactDOM.render(
-    <BrowserRouter>
+    <HashRouter>
         <App />
-    </BrowserRouter>, document.getElementById('root'));
+    </HashRouter>, document.getElementById('root'));
