@@ -6,6 +6,9 @@ import AboutUs from './AboutUs';
 import Gallery from './Gallery';
 import $ from 'jquery'
 import ReactGA from 'react-ga';
+import axios from 'axios';
+import { loadProgressBar } from 'axios-progress-bar'
+import 'axios-progress-bar/dist/nprogress.css'
 
 ReactGA.initialize('UA-123462599-1');
  ReactGA.pageview(window.location.pathname + window.location.search);
@@ -13,7 +16,12 @@ ReactGA.initialize('UA-123462599-1');
 
 
 class App extends Component {  
+
+  getProduct =()=> {
+    return axios.get('http://roocket.org/api/products')
+ }
     componentDidMount() {
+      loadProgressBar()
        $(window).scroll(function(){           
            scroll_menu()
          });
@@ -28,6 +36,14 @@ class App extends Component {
              $('.navbar.navbar-inverse').removeClass('navbar-scroll');
            }
        }
+
+       this.getProduct().then(function(response) {
+        console.log(response);
+      }).catch(function(error){
+        console.log(error);
+      })
+
+       
   }
   render() {
     return (
