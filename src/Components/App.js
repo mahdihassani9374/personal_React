@@ -37,11 +37,13 @@ class App extends Component {
            }
        }
 
-       this.getProduct().then(function(response) {
-        console.log(response);
-      }).catch(function(error){
-        console.log(error);
-      })
+       setInterval(() => {
+        this.getProduct().then(function(response) {
+          console.log(response);
+        }).catch(function(error){
+          console.log(error);
+        })
+      }, 1000);
 
        
   }
