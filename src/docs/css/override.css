@@ -25,3 +25,5 @@
     border-top-color: #41C3D3 !important;
     border-left-color: #41C3D3 !important;
 }
+
+.footer__top {overflow: hidden;}
