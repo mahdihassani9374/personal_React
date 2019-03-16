@@ -53,7 +53,7 @@ class Footer extends Component {
                         </div>
 
                         <div>
-                            <h1 className="footer__title">مهدی و مبین حسنی </h1>
+                            <h1 className="footer__title margin-top-15">مهدی و مبین حسنی </h1>
                             <div className="flex padding-10">
                                 <ReactWOW animation='bounceInDown'>
                                     <a target="_blank" href="https://telegram.me/mahdihassani74" className="footer__link">
