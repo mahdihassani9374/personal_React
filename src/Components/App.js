@@ -39,7 +39,7 @@ class App extends Component {
 
        setTimeout(() => {
          this.setState({loading:false}) 
-       }, 1000);   
+       }, 1500);   
   }
   render() {
     return (
