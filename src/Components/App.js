@@ -35,11 +35,13 @@ class App extends Component {
            else {
              $('.navbar.navbar-inverse').removeClass('navbar-scroll');
            }
-       }
+       }     
+      window.addEventListener('load', this.handeLoad);
+         
+  }
 
-       setTimeout(() => {
-         this.setState({loading:false}) 
-       }, 1500);   
+  handeLoad=()=> {   
+    this.setState({loading:false})
   }
   render() {
     return (
