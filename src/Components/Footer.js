@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return (
             <footer className="footer">
-                <div className="row">
+                <div className="">
                     <div className="container">
                         <div className="footer__top">
                             <div className="">
@@ -61,7 +61,7 @@ class Footer extends Component {
                                     </a>
                                 </ReactWOW>
                                 <ReactWOW animation='bounceInDown'>
-                                    <a target="_blank" href="https://www.instagram.com/mobinmahdihassani/" className="footer__link">
+                                    <a target="_blank" href="https://www.instagram.com/mobinmahdi.ir/" className="footer__link">
                                         <i className="fa fa-instagram" aria-hidden="true"></i>
                                     </a>
                                 </ReactWOW>

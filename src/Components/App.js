@@ -16,12 +16,16 @@ ReactGA.initialize('UA-123462599-1');
 
 
 class App extends Component {  
+
+    state = {
+      loading : true 
+    }
     componentDidMount() {     
        //loadProgressBar()
        $(window).scroll(function(){           
            scroll_menu()
          });
-         scroll_menu();
+        scroll_menu();
 
        function scroll_menu() {
            var scroll = $(window).scrollTop();
@@ -31,11 +35,22 @@ class App extends Component {
            else {
              $('.navbar.navbar-inverse').removeClass('navbar-scroll');
            }
-       }
+       }     
+      window.addEventListener('load', this.handeLoad);
+         
+  }
+
+  handeLoad=()=> {   
+    this.setState({loading:false})
   }
   render() {
     return (
       <div>
+        {
+          this.state.loading ? <div className="loading">
+              <div className="loading-spin"></div>
+          </div> : ''
+        }      
         <Route path="/" exact={true} component={Home} />
         <Route path="/aboutUs" component={AboutUs} />
         <Route path="/projects" component={Projects} />

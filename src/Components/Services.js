@@ -14,7 +14,7 @@ class Services extends Component {
     render() {
         return (
             <section className="section">
-                <div className="row">
+                <div className="">
                     <div className="container">
                         <ReactWOW animation='zoomIn'>
                             <div className="section__title">معرفی</div>

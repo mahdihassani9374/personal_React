@@ -21,7 +21,7 @@ class About extends Component {
     render() {
         return (
             <section className="section">
-                <div className="row">
+                <div className="">
                     <div className="container">
                         <ReactWOW animation='zoomIn'>
                             <div className="section__title">درباره ها</div>
@@ -33,7 +33,7 @@ class About extends Component {
 
                     </div>
                 </div>
-                <div className="row">
+                <div className="">
                     <div className="about">
                         {
                             this.state.user.map((item,index)=>

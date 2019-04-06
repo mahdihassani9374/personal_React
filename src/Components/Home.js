@@ -12,12 +12,12 @@ class Home extends Component {
         return (
             <div>
                 <Header />  
-                <Service />   
+                <Service /> 
                 <Bg />  
-                <ProjectItem />  
-                <Bg1 />  
+                <ProjectItem /> 
+                <Bg1 /> 
                 <About />
-                <Footer />
+                <Footer /> 
             </div>
         );
     }

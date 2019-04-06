@@ -14,7 +14,6 @@ import './docs/css/override.css'
 import 'jquery/src/jquery';
 import 'bootstrap/dist/js/bootstrap.min.js'
 
-
 ReactDOM.render(
     <HashRouter>
         <App />
