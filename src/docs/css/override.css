@@ -59,3 +59,25 @@
       transform: scale(1.0);
     }
   }
+
+  .img-app {
+     max-width: 300px;
+     margin-left: 10px;
+     border: 1px solid #ccc;
+     border-radius: 10px;
+  }
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+@media(max-width:991px) {
+    .img-app {
+        max-width: 200px;
+     }
+}
+@media(max-width:767px) {
+    .img-app {
+        max-width: 100px;
+     }
+}
