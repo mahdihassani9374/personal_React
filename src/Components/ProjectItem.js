@@ -50,7 +50,7 @@ class ProjectItem extends Component {
                                             <a target='_blank' href={item.link} className="link">
                                                 <div className="section__box p-0 pulse-hover">
                                                     <div className="text-center">
-                                                        <img src={item.img} className="img-responsive" alt={item.name} />
+                                                        <img src={item.img} className="img-responsive" alt={item.name} style={{borderBottom:'1px solid #ccc'}} />
                                                         <div className="padding-10">
                                                            {
                                                                item.name
