@@ -8,13 +8,16 @@ class About extends Component {
                 {name:'html5',range:'90%'},
                 {name:'css3',range:'80%'},
                 {name:'javascript',range:'70%'},
-                {name:'react',range:'60%'}
+                {name:'react',range:'60%'},
+                {name:'react-native',range:'50%'},
+                {name:'vue js',range:'40%'},
             ]},
             {name:'مبین حسنی ',title:'برنامه نویس سمت سرور',desc:'back end developer',skile : [
                 {name:'c#',range:'90%'},
                 {name:'.net core ',range:'80%'},
                 {name:'ef core ',range:'80%'},
-                {name:'xamarin',range:'60%'}
+                {name:'xamarin',range:'60%'},
+                {name:'mobgo DB',range:'50%'},
             ]}
         ]
     }

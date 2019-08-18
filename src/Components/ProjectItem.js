@@ -15,7 +15,7 @@ class ProjectItem extends Component {
     state = {
         projects: [
             { name: 'هیوا پرواز (درحال پیاده سازی)', img: projectImg6 ,link:'http://hyva.ferdows110.ir' },
-            { name: 'آستان قدس رضوی منطقه ۱۸ تهران', img: projectImg7 ,link:'http://kannon.ferdows110.ir' },
+            { name: 'آستان قدس رضوی منطقه ۱۸ تهران', img: projectImg7 ,link:'http://kanoon.ferdows110.ir' },
             { name: 'اکانت گیم', img: projectImg4 ,link:'http://accountgame.ir'},           
             { name: 'هیئت قائمیون', img: projectImg2  ,link:'http://ferdows110.ir'},
             { name: 'صراط وکتور', img: projectImg3 ,link:'http://seratvector.ir' },
