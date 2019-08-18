@@ -4,6 +4,8 @@ import projectImg1 from '../docs/images/project1.png';
 import projectImg2 from '../docs/images/project2.png';
 import projectImg3 from '../docs/images/project3.png';
 import projectImg5 from '../docs/images/project5.png';
+import projectImg6 from '../docs/images/hyva.png';
+import projectImg7 from '../docs/images/kannon.png';
 import application from '../docs/images/application.png';
 import application1 from '../docs/images/application1.png';
 import application2 from '../docs/images/application2.png';
@@ -12,11 +14,13 @@ import ReactWOW from 'react-wow'
 class ProjectItem extends Component {
     state = {
         projects: [
-            { name: 'اکانت گیم', img: projectImg4 ,link:'http://accountgame.ir'},
-            { name: 'ایمن صنعت پارسیان', img: projectImg1 ,link:'http://imensanaateparsian.ir' },
+            { name: 'هیوا پرواز (درحال پیاده سازی)', img: projectImg6 ,link:'http://hyva.ferdows110.ir' },
+            { name: 'آستان قدس رضوی منطقه ۱۸ تهران', img: projectImg7 ,link:'http://kannon.ferdows110.ir' },
+            { name: 'اکانت گیم', img: projectImg4 ,link:'http://accountgame.ir'},           
             { name: 'هیئت قائمیون', img: projectImg2  ,link:'http://ferdows110.ir'},
             { name: 'صراط وکتور', img: projectImg3 ,link:'http://seratvector.ir' },
             { name: 'تهران گرافیک', img: projectImg5 ,link:'http://tehran-graphic.ir' },
+            { name: 'ایمن صنعت پارسیان', img: projectImg1 ,link:'http://imensanaateparsian.ir' },           
         ],
         android:[
             {name:'اپلیکیشن هیئت قائمیون'  , img:[application , application1 , application2] , link:'http://s9.picofile.com/file/8366729968/qaemioun_app.apk.html'}
@@ -42,7 +46,7 @@ class ProjectItem extends Component {
                             {
                                 this.state.projects.map((item,index)=>
                                     <ReactWOW animation='zoomIn' key={index}>
-                                        <div className="col-md-6 col-sm-6 col-xs-12">
+                                        <div className="col-md-4 col-sm-6 col-xs-12">
                                             <a target='_blank' href={item.link} className="link">
                                                 <div className="section__box p-0 pulse-hover">
                                                     <div className="text-center">
