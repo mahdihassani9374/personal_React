@@ -9,18 +9,20 @@ import projectImg7 from '../docs/images/kannon.png';
 import application from '../docs/images/application.png';
 import application1 from '../docs/images/application1.png';
 import application2 from '../docs/images/application2.png';
+import altin from '../docs/images/altin.png';
 import ReactWOW from 'react-wow'
 
 class ProjectItem extends Component {
     state = {
         projects: [
+            { name: 'آلتین سی ان سی (altin cnc)', img: altin ,link:'http://altincnc.com' }, 
             { name: 'هیوا پرواز (درحال پیاده سازی)', img: projectImg6 ,link:'http://hyva.ferdows110.ir' },
             { name: 'آستان قدس رضوی منطقه ۱۸ تهران', img: projectImg7 ,link:'http://kanoon.ferdows110.ir' },
             { name: 'اکانت گیم', img: projectImg4 ,link:'http://accountgame.ir'},           
             { name: 'هیئت قائمیون', img: projectImg2  ,link:'http://ferdows110.ir'},
             { name: 'صراط وکتور', img: projectImg3 ,link:'http://seratvector.ir' },
             { name: 'تهران گرافیک', img: projectImg5 ,link:'http://tehran-graphic.ir' },
-            { name: 'ایمن صنعت پارسیان', img: projectImg1 ,link:'http://imensanaateparsian.ir' },           
+            { name: 'ایمن صنعت پارسیان', img: projectImg1 ,link:'http://imensanaateparsian.ir' },                     
         ],
         android:[
             {name:'اپلیکیشن هیئت قائمیون'  , img:[application , application1 , application2] , link:'http://s9.picofile.com/file/8366729968/qaemioun_app.apk.html'}
